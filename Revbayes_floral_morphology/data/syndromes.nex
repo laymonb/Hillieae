@@ -1,0 +1,35 @@
+#NEXUS
+
+Begin data;
+Dimensions ntax=26 nchar=1;
+Format datatype=Standard symbols="012" missing=? gap=-;
+Matrix
+COS_grandiflora			 	 0
+HIL_bonoi					 0
+HIL_illustris				 2
+HIL_killipii				 0
+HIL_parasitica	 			 0
+HIL_ulei					 2
+HIL_wurdackii				 0
+HIL_macrophylla_CR			 0
+HIL_macrophylla_Col			 0
+HIL_macromeris				 0
+HIL_pumila					 0
+HIL_macbridei				 0
+COS_macrocarpa			 	 0
+HIL_maxonii					 0
+HIL_foldatsii				 2
+BAL_stormiae				 1
+HIL_tetrandra				 0
+COS_matudae				 	 0
+HIL_loranthoides			 0
+HIL_palmana					 0
+COS_valerii					 0
+HIL_triflora_pittieri	 	 1
+HIL_triflora_triflora	 	 1
+HIL_grayumii				 2
+HIL_longifilamentosa		 1
+HIL_allenii					 1
+;
+End;
+
