@@ -1,0 +1,37 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=26;
+	Taxlabels
+		BAL_stormae_Vasquez1081
+		COS_grandiflora_Haber409
+		COS_macrocarpa_Sopkin10729
+		COS_matudae_Moreno9550
+		HIL_allenii_McPherson11676
+		HIL_bonoi_BrandtV0007
+		HIL_foldatsii_Holst3772
+		HIL_grayumii_Stevens24958
+		HIL_illustris_Vasquez4130
+		HIL_killipii_VanderWerff25095
+		HIL_longifilamentosa_GamboaR2206
+		HIL_loranthoides_Bello844
+		HIL_macbridei_Zak37881
+		HIL_macrophylla_Bello767
+		HIL_macrophylla_Cornejo8056
+		HIL_macrophylla_Werner2171
+		HIL_maxonii_Morales4855
+		HIL_palmana_Hammel13930
+		HIL_parasitica_Jiminez2189
+		HIL_pumila_Vasquez28189
+		HIL_tetranda_Martinez20613
+		HIL_triflora_Bello5314
+		HIL_triflora_pittieri_Croat14341
+		HIL_ulei_Revilla576
+		HIL_valerii_Haber548
+		HIL_wurdackii_Woylkowski8236
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&R](((((((((HIL_macrophylla_Werner2171[&index=17]:2.065166,HIL_wurdackii_Woylkowski8236[&index=18]:2.065166)[&index=27,posterior=1.000000,age_95%_HPD={0.847868,3.40213}]:0.935491,HIL_macrophylla_Cornejo8056[&index=16]:3.000657)[&index=28,posterior=1.000000,age_95%_HPD={1.42505,4.65183}]:0.538826,((HIL_parasitica_Jiminez2189[&index=21]:1.975421,HIL_pumila_Vasquez28189[&index=20]:1.975421)[&index=29,posterior=1.000000,age_95%_HPD={0.716117,3.35787}]:1.204699,HIL_killipii_VanderWerff25095[&index=19]:3.180120)[&index=30,posterior=1.000000,age_95%_HPD={1.51063,4.85972}]:0.359363)[&index=31,posterior=1.000000,age_95%_HPD={1.78356,5.37249}]:1.351941,(HIL_bonoi_BrandtV0007[&index=15]:4.171070,HIL_macbridei_Zak37881[&index=14]:4.171070)[&index=32,posterior=1.000000,age_95%_HPD={1.95589,6.50306}]:0.720354)[&index=33,posterior=1.000000,age_95%_HPD={2.50293,7.30467}]:0.573092,HIL_macrophylla_Bello767[&index=13]:5.464517)[&index=34,posterior=1.000000,age_95%_HPD={2.84256,8.15622}]:2.835607,((((HIL_allenii_McPherson11676[&index=10]:1.794960,HIL_triflora_pittieri_Croat14341[&index=9]:1.794960)[&index=35,posterior=1.000000,age_95%_HPD={0.720023,3.0814}]:1.878140,(HIL_longifilamentosa_GamboaR2206[&index=11]:2.640516,HIL_triflora_Bello5314[&index=12]:2.640516)[&index=36,posterior=1.000000,age_95%_HPD={1.07776,4.2869}]:1.032584)[&index=37,posterior=1.000000,age_95%_HPD={1.82948,5.70803}]:1.629519,HIL_grayumii_Stevens24958[&index=8]:5.302619)[&index=38,posterior=1.000000,age_95%_HPD={2.7189,7.96459}]:0.424017,(HIL_foldatsii_Holst3772[&index=6]:3.306088,HIL_illustris_Vasquez4130[&index=7]:3.306088)[&index=39,posterior=1.000000,age_95%_HPD={1.36228,5.54635}]:2.420548)[&index=40,posterior=1.000000,age_95%_HPD={3.06354,8.63085}]:2.573488)[&index=41,posterior=1.000000,age_95%_HPD={4.63284,12.2874}]:1.545412,(((HIL_loranthoides_Bello844[&index=25]:3.900447,HIL_maxonii_Morales4855[&index=26]:3.900447)[&index=42,posterior=1.000000,age_95%_HPD={1.82174,6.21635}]:0.998115,(HIL_palmana_Hammel13930[&index=23]:3.326022,HIL_tetranda_Martinez20613[&index=24]:3.326022)[&index=43,posterior=1.000000,age_95%_HPD={1.38343,5.41802}]:1.572540)[&index=44,posterior=1.000000,age_95%_HPD={2.43579,7.53443}]:2.657486,HIL_ulei_Revilla576[&index=22]:7.556048)[&index=45,posterior=1.000000,age_95%_HPD={4.01376,11.3505}]:2.289488)[&index=46,posterior=1.000000,age_95%_HPD={5.57533,14.5632}]:6.468821,BAL_stormae_Vasquez1081[&index=5]:16.314357)[&index=47,posterior=1.000000,age_95%_HPD={9.43319,23.6283}]:2.733297,(((COS_grandiflora_Haber409[&index=4]:3.473856,COS_macrocarpa_Sopkin10729[&index=3]:3.473856)[&index=48,posterior=1.000000,age_95%_HPD={1.38678,5.80598}]:2.209685,COS_matudae_Moreno9550[&index=2]:5.683541)[&index=49,posterior=1.000000,age_95%_HPD={2.67933,9.06985}]:6.055297,HIL_valerii_Haber548[&index=1]:11.738838)[&index=50,posterior=1.000000,age_95%_HPD={5.95843,17.8991}]:7.308816)[&index=51,posterior=1.000000,age_95%_HPD={11.7423,26.589}]:0.000000;
+End;
